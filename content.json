@@ -1,0 +1,48 @@
+{
+  "ES": {
+    "name": "Alejandro",
+    "greeting": "Hola 👋 Soy",
+    "coverLetter": "Desarrollador de software con experiencia en tecnologías como Javascript/Typescript, C y Java. Mi meta es construir software confiable que resuelva problemas reales en el mundo",
+    "contact": "Si deseas ponerte en contacto conmigo, o ver el codigo fuente de todos los proyectos, puedes hacerlo a través de uno de los siguientes métodos",
+    "resume": "public/alejandro_resume_es.pdf",
+    "projects": {
+      "book_recipes": {
+        "title": "Book of Recipes",
+        "stack": "javascript css nodejs react",
+        "live_demo": "https://rb-bookofrecipes.netlify.app/",
+        "description": "Aplicación fullstack Desarrollado en JavaScript (NodeJS) con Express.js, Mongoose (ODM) y MongoDB",
+        "preview": "public/assets/preview01.png"
+      },
+      "telegrama": {
+        "title": "Telegrama",
+        "stack": "typescript nodejs",
+        "live_demo": "https://github.com/alemayol/telegrama",
+        "description": "Servicio Backend para chats en tiempo real. Desarrollado en Typescript (NodeJS) con Express.js, Socket.io, Mongoose (ODM) y MongoDB",
+        "preview": "public/assets/preview02.png"
+      }
+    }
+  },
+  "EN": {
+    "name": "Alejandro",
+    "greeting": "Hello there, I'm",
+    "coverLetter": "I'm a software developer with experience in languages such as Javascript/Typescript, C and Java. My goal is to build reliable software that solves real-world problems 🔧",
+    "contact": "If you'd like to get in touch, or view the source code of the projects, you can use one of the following methods.",
+    "resume": "public/alejandro_resume_en.pdf",
+    "projects": {
+      "book_recipes": {
+        "title": "Book of Recipes",
+        "stack": "javascript css nodejs react",
+        "live_demo": "https://rb-bookofrecipes.netlify.app/",
+        "description": "FullStack app developed in Javascript (NodeJS) powered by Express.js, mongoose (ODM) and MongoDB",
+        "preview": "public/assets/preview01.png"
+      },
+      "telegrama": {
+        "title": "Telegrama",
+        "stack": "typescript nodejs",
+        "live_demo": "https://github.com/alemayol/telegrama",
+        "description": "Backend service developed in Javascript (NodeJS) powered by Express.js, Socket.io, mongoose (ODM) and MongoDB",
+        "preview": "public/assets/preview02.png"
+      }
+    }
+  }
+}
