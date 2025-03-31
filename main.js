@@ -117,6 +117,11 @@ function handleLanguagesClass(arrLang) {
 
 // Get string of the properties on the json content file and create the DOM elements
 function createInformation(json, inSpanish) {
+  const $html = document.querySelector("html");
+
+  const $navProject = document.querySelector(".nav_projects");
+  const $navContact = document.querySelector(".nav_contact");
+
   const $cover_letter = document.querySelector(".cover_letter");
   const $greeting = document.querySelector(".greeting");
   const $projectsSectionTitle = document.querySelector(".projects h2");
@@ -156,6 +161,13 @@ function createInformation(json, inSpanish) {
       }
     }
   }
+
+  $html.setAttribute("lang", inSpanish ? "es" : "en");
+
+  if ($navProject != undefined)
+    $navProject.textContent = inSpanish ? "Projectos" : "Projects";
+  if ($navContact != undefined)
+    $navContact.textContent = inSpanish ? "Contacto" : "Contact";
 
   if ($cover_letter != undefined) $cover_letter.textContent = json.coverLetter;
   if ($greeting != undefined) $greeting.textContent = json.greeting;

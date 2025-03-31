@@ -1,82 +1,119 @@
 <!doctype html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alejandro's Portfolio</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="public/assets/invader.png" />
+    <script src="./main.js" defer type="module"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Alejandro's Portfolio</title>
-  <link href="./style.css" rel="stylesheet" />
-  <link rel="icon" type="image/png" href="public/assets/invader.png" />
-  <script src="./main.js" defer type="module"></script>
-</head>
-
-<body>
-  <script>
-    0; <!-- Dummy Script --!>
-  </script>
-  <header>
-    <nav class="nav_container">
-      <a href="./index.html" rel="rel" target="_self">Projects</a>
-      <a href="./contact.html" rel="rel" target="_self">Contact</a>
-    </nav>
-  </header>
-  <main>
-    <section class="hero">
-      <div class="greeting_container">
-        <h1 class="greeting"></h1>
-        <span class="name"></span>
-      </div>
-
-      <span class="blink"></span>
-
-      <p class="cover_letter"></p>
-
-      <a href="" class="resume" target="_blank"></a>
-    </section>
-
-    <hr />
-
-    <section class="projects">
-      <h2 class="section_title"></h2>
-
-      <nav class="languages_nav">
-        <button type="button" data-tech="javascript" class="language">
-          <img src="public/assets/javascript_logo.svg" alt="javascript logo" width="60px" height="60px" />
-        </button>
-        <button type="button" data-tech="css" class="language">
-          <img src="public/assets/css_logo.svg" alt="css logo" width="60px" height="60px" />
-        </button>
-        <button type="button" data-tech="typescript" class="language">
-          <img src="public/assets/typescript.svg" alt="typescript logo" width="60px" height="60px" />
-        </button>
-        <button type="button" data-tech="nodejs" class="language">
-          <img src="public/assets/nodejs-icon.svg" alt="nodejs logo" width="60px" height="60px" />
-        </button>
-        <button type="button" data-tech="react" class="language">
-          <img src="public/assets/react.svg" alt="react.js logo" width="60px" height="60px" />
-        </button>
+  <body>
+    <script>
+      0; <!-- Dummy Script --!>
+    </script>
+    <header>
+      <nav class="nav_container">
+        <a
+          href="./index.html"
+          rel="rel"
+          target="_self"
+          class="nav_projects"
+        ></a>
+        <a
+          href="./contact.html"
+          rel="rel"
+          target="_self"
+          class="nav_contact"
+        ></a>
       </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="greeting_container">
+          <h1 class="greeting"></h1>
+          <span class="name"></span>
+        </div>
 
-      <ul class="projects_preview">
-        <template id="project_template">
-          <li class="preview" data-stack="">
-            <a href="" target="_blank" rel="norel">
-              <img src="" alt="" width="auto" height="325px" />
-              <div class="project_info">
-                <h4></h4>
-                <p></p>
-              </div>
-            </a>
-          </li>
-        </template>
-      </ul>
-    </section>
-  </main>
-  <footer>
-    <p>© 2025 / Alejandro Mayol</p>
-    <a href="https://github.com/alemayol/alemayol.github.io" alt="Source code link" target="_self"
-      class="source_code"></a>
-  </footer>
-</body>
+        <span class="blink"></span>
 
+        <p class="cover_letter"></p>
+
+        <a href="" class="resume" target="_blank"></a>
+      </section>
+
+      <hr />
+
+      <section class="projects">
+        <h2 class="section_title"></h2>
+
+        <nav class="languages_nav">
+          <button type="button" data-tech="javascript" class="language">
+            <img
+              src="public/assets/javascript_logo.svg"
+              alt="javascript logo"
+              width="60px"
+              height="60px"
+            />
+          </button>
+          <button type="button" data-tech="css" class="language">
+            <img
+              src="public/assets/css_logo.svg"
+              alt="css logo"
+              width="60px"
+              height="60px"
+            />
+          </button>
+          <button type="button" data-tech="typescript" class="language">
+            <img
+              src="public/assets/typescript.svg"
+              alt="typescript logo"
+              width="60px"
+              height="60px"
+            />
+          </button>
+          <button type="button" data-tech="nodejs" class="language">
+            <img
+              src="public/assets/nodejs-icon.svg"
+              alt="nodejs logo"
+              width="60px"
+              height="60px"
+            />
+          </button>
+          <button type="button" data-tech="react" class="language">
+            <img
+              src="public/assets/react.svg"
+              alt="react.js logo"
+              width="60px"
+              height="60px"
+            />
+          </button>
+        </nav>
+
+        <ul class="projects_preview">
+          <template id="project_template">
+            <li class="preview" data-stack="">
+              <a href="" target="_blank" rel="norel">
+                <img src="" alt="" width="auto" height="325px" />
+                <div class="project_info">
+                  <h4></h4>
+                  <p></p>
+                </div>
+              </a>
+            </li>
+          </template>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>© 2025 / Alejandro Mayol</p>
+      <a
+        href="https://github.com/alemayol/alemayol.github.io"
+        alt="Source code link"
+        target="_self"
+        class="source_code"
+      ></a>
+    </footer>
+  </body>
 </html>
